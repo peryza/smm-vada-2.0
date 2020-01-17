@@ -94,13 +94,16 @@ SOCIALACCOUNT_PROVIDERS = {
         'APP': {
 
             'client_id':'7281671',
-            'secret':'O0Xfs7hqql0EGqpA8rWo',
+            'secret':'cLmwZSNrJbn8ZZOJaPDD',
 
         }
     }
 }
 WSGI_APPLICATION = 'smmvada.wsgi.application'
 ACCOUNT_ADAPTER = 'smmvada.users.adapter.MyAccountAdapter'
+
+
+
 
 
 # Database

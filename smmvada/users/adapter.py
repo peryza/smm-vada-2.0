@@ -6,3 +6,5 @@ class MyAccountAdapter(DefaultAccountAdapter):
     def get_login_redirect_url(self, request):
         path = "/rest-auth/user/{username}/"
         return path.format(username=request.user.id)
+
+
