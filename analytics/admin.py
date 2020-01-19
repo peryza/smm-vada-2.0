@@ -1,3 +1,4 @@
 from django.contrib import admin
+from analytics.models from Public
 
-# Register your models here.
+admin.site.register(Public)

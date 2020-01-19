@@ -1,3 +1,4 @@
 from django.contrib import admin
+from access_social.models from Token
 
-# Register your models here.
+admin.site.register(Token)
