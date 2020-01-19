@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'access_social',
     'posts',
     'analytics',
+    'news',
 
 ]
 

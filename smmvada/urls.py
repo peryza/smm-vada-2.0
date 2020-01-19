@@ -24,6 +24,7 @@ urlpatterns = [
     path('api/', include('posts.urls')),
     path('api/', include('user.urls')),
     path('api/', include('analytics.urls')),
+    path('api/', include('news.urls')),
     path('rest-auth/registration/', include('rest_auth.registration.urls')),
     path('accounts/', include('allauth.urls')),
     path('login/vk-oauth2/', include('allauth.urls')),
